@@ -1,7 +1,7 @@
 import React from 'react'
 
 const SubValuesItem = ({a:{id,loveVal,favouriteTopic},onRemove}) => {
-
+  
   return (
     <div key={id}>
         <h1>SubmitedItem : </h1>

@@ -6,7 +6,7 @@ import FavouriteTopic from './formDialogs/favoritTopicDialog';
 import FormVm from './formDialogs/test/FormVm';
 
 
-function TopicEvaluationDialog(formStateAndEvents) {
+function TopicEvaluationDialog() {
    
    const [subValues,setSubValues] = useState([]);
 
