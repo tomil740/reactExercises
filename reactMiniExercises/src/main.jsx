@@ -7,11 +7,12 @@ import ImagesContainer from './react10.2/ImagesContainer';
 import FormComponent from './FormValidationExe/FormComponent'
 import './FormValidationExe/FormComponent.css'
 import MainComponent from './FavoriteColorExe/mainComponent';
+import MainComp from './boxAnimation13-2/mainComp';
 
 const data = formStatesAndEvents;
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <MainComponent/>
+    <MainComp/>
   </StrictMode>,
 )
