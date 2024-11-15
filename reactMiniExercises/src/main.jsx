@@ -8,11 +8,13 @@ import FormComponent from './FormValidationExe/FormComponent'
 import './FormValidationExe/FormComponent.css'
 import MainComponent from './FavoriteColorExe/mainComponent';
 import MainComp from './boxAnimation13-2/mainComp';
+import GrandFatherComp from './19.1_great_grandfather/GrandFatherComp';
+
 
 const data = formStatesAndEvents;
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <MainComp/>
+    <GrandFatherComp/>
   </StrictMode>,
 )
